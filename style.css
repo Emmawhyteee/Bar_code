@@ -36,8 +36,10 @@ p {
   border-radius: 20px;
 }
 
-/* @media screen(max-width:375px) {
+@media screen(max-width:375px) {
   body{
+    background-color: Light gray: hsl(212, 45%, 89%);
+    display: 1 1 375px;
 
   }
-} */
+}
