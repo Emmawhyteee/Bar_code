@@ -35,3 +35,9 @@ p {
   margin-top: 50px;
   border-radius: 20px;
 }
+
+/* @media screen(max-width:375px) {
+  body{
+
+  }
+} */
