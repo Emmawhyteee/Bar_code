@@ -1,12 +1,37 @@
+@import url(https://fonts.google.com/specimen/Outfit);
+
 * {
   margin: 0;
   padding: 0;
 }
 
 body {
-  background-color: lightgray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  background-color: rgb(207, 235, 245);
+  min-height: 100vh;
+  font-family: [Outfits];
+  font-weight: 400, 700;
 }
 
+img {
+  border-radius: 20px;
+}
+.container {
+  padding: 2rem;
+}
+p {
+  padding: 1rem 1rem 1rem 0;
+  color: rgb(187, 179, 179);
+}
 .card {
   background-color: white;
+  place-items: center;
+  box-shadow: 0 4px 8px 0 rgb(226, 223, 223);
+  transition: 0.3s;
+  padding: 1rem;
+  margin-top: 50px;
+  border-radius: 20px;
 }
